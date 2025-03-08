@@ -1,0 +1,7 @@
+Source - The frontend textual source language.
+Parsing - Source is parsed into an abstract syntax tree.
+Desugar - Redundant structure from the frontend language is removed and canonicalized.
+Type Checking - The program is type-checked and/or type-inferred yielding an explicitly typed form.
+Transformation - The core language is transformed to prepare for compilation.
+Compilation - The core language is lowered into a form to be compiled or interpreted.
+(Code Generation) - Platform specific code is generated, linked into a binary.
